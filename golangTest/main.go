@@ -11,7 +11,7 @@ func main() {
 
 	start := time.Now()
 
-	filename := "test.dat"
+	filename := "f:/desarrollo/golangvspython/test.dat"
 	newfile := "testGo.txt"
 	e := os.Remove(newfile)
 	if e != nil {

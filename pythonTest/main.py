@@ -1,6 +1,6 @@
 import os.path, time
 start = time.time()
-filename = "test.dat"
+filename = "f:/desarrollo/golangvspython/test.dat"
 newfile ='testPython.txt'
 
 if os.path.exists(newfile):
